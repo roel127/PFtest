@@ -3,7 +3,7 @@ import $ from 'jquery';
 $(function(){
   // 미디어 크기 설정
   let windowW = $(window).width();
-    if(window > 1155){
+    if(windowW > 1155){
       nav();
       aside();
     } else if(windowW > 980 && window <= 1154){
